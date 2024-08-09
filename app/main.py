@@ -89,6 +89,7 @@ class Question:
         self.player = player
 
     def validate(self, accusation: bool):
+        accusation = not accusation
         return True
         # FIX THIS
         # if not self.question[0] >= 0 and not self.question[0] <= 6:
@@ -274,14 +275,3 @@ class Board:
 
             current = (current + 1) % len(self.players)
         print(winner.name, "has won", self.hidden)
-
-
-game_players = [Player("jan", 0), Player("chris", 1), Player("Eddy", 2)]
-game = Board(game_players)
-game.choose_and_send()
-
-print(game.hidden)
-for i in game_players:
-    print(i.hand)
-
-game.start_game()
