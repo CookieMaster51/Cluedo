@@ -1,0 +1,158 @@
+{
+    "kitchen":{
+        "ballroom": 7,
+        "conservatory": 20,
+        "billiard_room": 17,
+        "library": 23,
+        "study": 0,
+        "hall": 19,
+        "lounge": 19,
+        "dinning_room": 11
+    },
+    "ballroom": {
+        "kitchen": 7,
+        "conservatory": 4,
+        "billiard_room": 6,
+        "library": 12,
+        "study": 17,
+        "hall": 13,
+        "lounge": 15,
+        "dinning_room": 7
+    },
+    "conservatory": {
+        "kitchen": 20,
+        "ballroom": 4,
+        "billiard_room": 7,
+        "library": 14,
+        "study": 20,
+        "hall": 20,
+        "lounge": 0,
+        "dinning_room": 19
+    },
+    "billiard_room": {
+        "kitchen": 17,
+        "ballroom": 6,
+        "conservatory": 7,
+        "library": 4,
+        "study": 15,
+        "hall": 15,
+        "lounge": 22,
+        "dinning_room": 14
+    },
+    "library": {
+        "kitchen": 17,
+        "ballroom": 12,
+        "conservatory": 14,
+        "billiard_room": 4,
+        "study": 7,
+        "hall": 7,
+        "lounge": 14,
+        "dinning_room": 14
+    },
+    "study": {
+        "kitchen": 0,
+        "ballroom": 17,
+        "conservatory": 20,
+        "billiard_room": 15,
+        "library": 7,
+        "hall": 4,
+        "lounge": 17,
+        "dinning_room": 17
+    },
+    "hall": {
+        "kitchen": 19,
+        "ballroom": 13,
+        "conservatory": 20,
+        "billiard_room": 15,
+        "library": 7,
+        "study": 4,
+        "lounge": 8,
+        "dinning_room": 8
+    },
+    "lounge": {
+        "kitchen": 19,
+        "ballroom": 15,
+        "conservatory": 0,
+        "billiard_room": 22,
+        "library": 14,
+        "study": 17,
+        "hall": 8,
+        "dinning_room": 4
+    },
+    "dinning_room": {
+        "kitchen": 11,
+        "ballroom": 7,
+        "conservatory": 19,
+        "billiard_room": 14,
+        "library": 14,
+        "study": 17,
+        "hall": 8,
+        "lounge": 4
+    },
+    "scarlett": {
+        "lounge": 8,
+        "dinning_room": 10,
+        "hall": 12,
+        "kitchen": 23,
+        "ballroom": 19,
+        "conservatory": 31,
+        "billiard_room": 26,
+        "library": 18,
+        "study": 21
+    },
+    "mustard": {
+        "lounge": 8,
+        "dinning_room": 8,
+        "hall": 12,
+        "kitchen": 23,
+        "ballroom": 19,
+        "conservatory": 31,
+        "billiard_room": 26,
+        "library": 18,
+        "study": 21
+    },
+    "orchid": {
+        "lounge": 24,
+        "dinning_room": 16,
+        "hall": 24,
+        "kitchen": 13,
+        "ballroom": 8,
+        "conservatory": 25,
+        "billiard_room": 22,
+        "library": 28,
+        "study": 33
+    },
+    "green": {
+        "lounge": 31,
+        "dinning_room": 23,
+        "hall": 24,
+        "kitchen": 24,
+        "ballroom": 8,
+        "conservatory": 10,
+        "billiard_room": 13,
+        "library": 19,
+        "study": 24
+    },
+    "peacock": {
+        "lounge": 30,
+        "dinning_room": 22,
+        "hall": 23,
+        "kitchen": 23,
+        "ballroom": 9,
+        "conservatory": 7,
+        "billiard_room": 10,
+        "library": 17,
+        "study": 23
+    },
+    "plum": {
+        "lounge": 21,
+        "dinning_room": 21,
+        "hall": 10,
+        "kitchen": 32,
+        "ballroom": 21,
+        "conservatory": 26,
+        "billiard_room": 19,
+        "library": 11,
+        "study": 8
+    }
+}
